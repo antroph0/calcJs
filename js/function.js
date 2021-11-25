@@ -21,7 +21,8 @@ function init(){
     //Events
 
     one.onclick = function(e){
-        result.TextContent = result.TextContent + "1"; 
+        result.TextContent = result.TextContent + "1"
+        console.log(result.TextContent);
     }
     two.onclick = function(e){
         result.TextContent = result.TextContent + "2"; 
